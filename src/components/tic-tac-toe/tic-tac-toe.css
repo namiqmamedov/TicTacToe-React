@@ -1,0 +1,41 @@
+.game .board {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.game .board .cell {
+  width: 100px;
+  height: 100px;
+  border-radius: 0;
+  border: none;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  font-weight: 700;
+  background-color: #f2f2f2;
+  outline: none;
+  margin-bottom: 10px;
+}
+.game .board .cell:hover {
+  color: inherit;
+}
+.game .board .cell_x {
+  background: #bb76ff;
+  color: white;
+}
+.game .board .cell_o {
+  color: blue;
+}
+.game p {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.game .reset {
+  margin-top: 20px;
+  min-width: 200px;
+  border-radius: 2px;
+  border: none;
+}/*# sourceMappingURL=tic-tac-toe.css.map */
